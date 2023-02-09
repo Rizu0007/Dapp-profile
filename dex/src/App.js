@@ -5,6 +5,7 @@ import Swap from './components/Swap'
 import Token from './components/Tokens'
 
 
+
 function App() {
 
   return(
@@ -16,8 +17,6 @@ function App() {
 <Routes>
 <Route path="/" element={<Swap/>}/>
 <Route path="/" element={<Token/>}/>
-<h1>hell .
-</h1>
 </Routes>
 
 </div>
